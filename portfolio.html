@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Portfolio of Nathan Perfetti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="name">
+                <h1>Nathan Perfetti</h1>
+            </div>
+            <ul> 
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article class="container">
+        <div class="content"><!-- Use this to create padding all around the page-specific content -->
+            <h1>Portfolio</h1>
+            <div class="work">
+                <div class="caption">
+                    <h2>Hangman</h2>
+                </div>
+                <img src="assets/images/hangman.jpg" alt="Hangman" />
+            </div>
+            <div class="work">
+                <div class="caption">
+                    <h2>RPG Game</h2>
+                </div>
+                <img src="assets/images/rpg-game.jpg" alt="RPG Game" />
+            </div>
+            <div class="work">
+                <div class="caption">
+                    <h2>Trivia Game</h2>
+                </div>
+                <img src="assets/images/trivia-game.jpg" alt="Trivia Game" />
+            </div>
+            <div class="work">
+                <div class="caption">
+                    <h2>Rutger’s Info Widget</h2>
+                </div>
+                <img src="assets/images/rutgers-info-widget.jpg" alt="Rutger’s Info Widget" />
+            </div>
+            <div class="work">
+                <div class="caption">
+                    <h2>Rock Paper Scissors</h2>
+                </div>
+                <img src="assets/images/rock-paper-scissors.jpg" alt="Rock Paper Scissors" />
+            </div>
+
+        </div>
+    </article>
+    <footer> 
+        <p>© Nathan Perfetti 2018</p>
+    </footer>
+    </div>
+<style>
+    div.work div.caption{
+        z-index: 2;
+        width: 100%;
+        background-color: #4aaaa5;
+        height: 60px;
+        position: absolute;
+        top: 138px
+    }
+    div.work{
+        margin: 28px 20px;
+        border: none;
+        position: relative;
+        display: inline-block;
+        width: 274px;
+        height: 205px;
+}
+
+    div.work h2 {
+        text-align: center;
+        line-height: 60px;
+        color: #ffffff;
+        font-size: 18pt;
+
+    }
+    div.work img {
+        z-index: 1;
+    }
+</style>
+</body>
+</html>
